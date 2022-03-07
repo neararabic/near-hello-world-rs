@@ -3,11 +3,11 @@ use near_sdk::borsh::{self, BorshDeserialize, BorshSerialize};
 use near_sdk::near_bindgen;
 
 near_sdk::setup_alloc!();
-//ماكرو حتى يمكن لبية العمل ترجمة الكود التالي الى كود يعمل على البلوك تشين
+//ماكرو حتى يمكن لبيئة العمل ترجمة الكود التالي الى كود يعمل على البلوك تشين
 #[near_bindgen]
 #[derive(Default, BorshDeserialize, BorshSerialize)]
 
-//مكون الرئيسي للعقد الذكي - ستركتشر
+//المكون الرئيسي للعقد الذكي - ستركتشر
 pub struct Contract {
   //يمكن تعريف المتغيرات هنا
 }
