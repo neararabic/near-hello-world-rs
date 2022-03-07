@@ -22,7 +22,7 @@ env 'RUSTFLAGS=-C link-arg=-s' cargo build --target wasm32-unknown-unknown --rel
 4- يمكنك رفع هذا الملف مباشرة على البلوك تشين بالطرق المعتادة مثل
 
 ```
- near dev-deploy .\target\wasm32-unknown-unknown\debug\near_rust_helloworld.wasm
+ near dev-deploy .\target\wasm32-unknown-unknown\release\near_rust_helloworld.wasm
 ```
 
 5- يمكنك التجربة باستدعاء الدالة `hello_world`
